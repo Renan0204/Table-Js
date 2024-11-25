@@ -1,0 +1,97 @@
+header{
+    background-color: transparent;
+    padding: 1px;
+    color: #ffffff;
+    text-align: center;
+    font-family: monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 2px;
+    width: 100%;
+}
+
+header img{
+    width: 180px;
+}
+
+body{
+    background: url(imagens/img-fundo.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+main {
+    padding: 30px 50px;
+    border: 1px solid #767676;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+}
+
+main .title h2, span{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.card {
+    --bs-card-bg:transparent;
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+}
+
+button.btn-add{
+    background-color: #470068;
+    color: white;
+    cursor: pointer;
+    width: 30%;
+    height: 40px;
+    transition: 0.3s;
+    font-weight: 400;
+}
+
+button#btnRemove {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+button#btnRemove:hover {
+    background-color: transparent;
+    color: red;
+    transition: 0.3s;
+    border: none;
+}
+
+button.btn-add:hover{
+    box-shadow: 0px 0px 20px 1px #470068;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+#tabelaClientes{
+    margin-top: 20px;
+}
